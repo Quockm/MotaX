@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30dp"
+    tools:context=".Common.LoginSignUp.ForgetPasswordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_selection"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/muli_semibold"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_make_selection"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/muli_light_italic"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_view"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mobileicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/mobilephone"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_mobileicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_sms"
+                android:textSize="25sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:layout_toRightOf="@id/mobileicon"
+                android:layout_marginTop="35dp"/>
+
+            <TextView
+                android:id="@+id/txt_mobiledes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_84977346168"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/muli_semibold"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/mobileicon"
+                android:layout_below="@id/txt_mobileicon"
+                android:layout_toEndOf="@id/mobileicon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_view"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gmailicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_iconfinder_streamline_58_185078"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/txt_gmailicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/via_email"
+                android:textSize="25sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:layout_toRightOf="@id/gmailicon"
+                android:layout_marginTop="35dp"
+                android:layout_toEndOf="@id/gmailicon" />
+
+            <TextView
+                android:id="@+id/txt_gmailicondes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/support_gmail_com"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/muli_semibold"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/gmailicon"
+                android:layout_below="@id/txt_gmailicon"
+                android:layout_toEndOf="@id/gmailicon" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MotaX</string>
+    <string name="motaxigo">MotaxiGo</string>
+    <string name="get_in_the_car_and_feel_the_live">Get in the car and enjoy your ride</string>
+    <string name="version">v 0.0.1</string>
+    <string name="let_s_get_started">LETS GET STARTED</string>
+    <string name="detail1">Just relax on your comfortable chair and enjoy the journey with us. We will bring the best feeling to you with MotaxiGo</string>
+    <string name="heading1">Enjoy your trip</string>
+    <string name="detail2">Motaxi Go will bring you to anywhere from the mountain to the beach, anywhere you need we can all accommodate it</string>
+    <string name="heading2">Discover your Hometown</string>
+    <string name="detail3">Motaxi Go supports many different payment methods, you can pay easily with traditional like cash or simply just need 1 credit card</string>
+    <string name="heading3">Easy to purchase</string>
+    <string name="skip">Skip</string>
+    <string name="hi_there">Hi There!! <br>Just Login and Feel</br> </string>
+    <string name="we_will_bring_the_best_to_serve_your_needs_your_request_is_our_command">We will bring the best to serve your needs. <br>Your request is our command</br></string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="how_we_work">How we work?</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="select_your_age">Select your Age</string>
+    <string name="_2_3">2/3</string>
+    <string name="_1_3">1/3</string>
+    <string name="_3_3">3/3</string>
+    <string name="code">Co<br>de</br> </string>
+    <string name="verification">verification</string>
+    <string name="OTP_decripstion_text">Enter One time password sent on <br>+84977346168</br> </string>
+    <string name="verify_code">Verify Code</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="provide_your_account_s_email_for_which_you_want_to_reset_your_password">Provide your accounts email for which you want to reset your password</string>
+    <string name="make_selection">make <br>selection</br></string>
+    <string name="detail_make_selection">Selcect which contact details should we use to reset your password?</string>
+    <string name="via_sms">Via sms:</string>
+    <string name="_84977346168">+84977346168</string>
+    <string name="support_gmail_com">sp@gmail.com</string>
+    <string name="via_email">Via email</string>
+    <string name="new_credentials">New <br>credentials</br></string>
+    <string name="your_identify_has_been_verified_set_your_new_pass_word">Your identify has been verified! <br>Set your new pass word</br></string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="ok">Ok</string>
+    <string name="password_updated">Password <br>Updated</br></string>
+    <string name="your_password_has_been_updated">Your password has been updated!</string>
+
+
+</resources>
