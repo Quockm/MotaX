@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:text="@string/let_s_get_started"
             android:visibility="invisible"
+            android:onClick="skip"
             android:backgroundTint="@color/gold"/>
 
         <LinearLayout

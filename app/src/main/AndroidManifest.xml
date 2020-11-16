@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MotaX">
-        <activity android:name=".Common.LoginSignUp.ForgotPasswordSuccessActivity"></activity>
+        <activity android:name=".Common.LoginSignUp.Sign_up_success"></activity>
+        <activity android:name=".Common.LoginSignUp.ForgotPasswordSuccessActivity" />
         <activity android:name=".Common.LoginSignUp.SetNewPasswordActivity" />
         <activity android:name=".Common.LoginSignUp.MakeSelections" />
         <activity android:name=".Common.LoginSignUp.ForgetPasswordActivity" />

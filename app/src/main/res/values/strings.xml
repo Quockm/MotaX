@@ -53,6 +53,8 @@
     <string name="go">Go</string>
     <string name="already_have_account">Already have an account? Login</string>
     <string name="signup_to_start_motaxgo">SignUp to start MotaxGO</string>
+    <string name="sign_up_ncompletely">Sign up <br>Completely</br></string>
+    <string name="you_have_completed_creating_a_new_account_please_log_in_by_using_it">You have completed creating a new account Please log in by using it</string>
 
 
 </resources>

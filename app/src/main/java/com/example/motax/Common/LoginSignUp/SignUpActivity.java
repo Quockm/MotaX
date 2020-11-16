@@ -37,7 +37,7 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     public void callNextSignUpScreen(View view) {
-        Intent intent = new Intent(getApplicationContext(), SignUp2ndActivity.class);
+        Intent intent = new Intent(getApplicationContext(), Sign_up_success.class);
 
         //Add Transition
         Pair[] pairs = new Pair[4];
