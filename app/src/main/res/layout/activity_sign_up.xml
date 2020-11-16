@@ -27,13 +27,11 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="2">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/txtSignUp_title"
-                android:layout_weight="1"
-                android:layout_width="150dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/muli_semibold"
                 android:text="@string/create_account"
@@ -43,24 +41,31 @@
                 android:textStyle="bold"
                 android:transitionName="transition_title_signup"/>
 
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:text="@string/_1_3"-->
+<!--                android:padding="8dp"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="30sp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:fontFamily="@font/bangers_regular"-->
+<!--                android:background="@drawable/text_view_circle"-->
+<!--                android:layout_marginStart="5dp" />-->
+
             <TextView
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="@string/_1_3"
-                android:padding="8dp"
-                android:gravity="center"
-                android:textSize="30sp"
-                android:layout_marginLeft="10dp"
-                android:fontFamily="@font/bangers_regular"
-                android:background="@drawable/text_view_circle"
-                android:layout_marginStart="5dp" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signup_to_start_motaxgo"
+                android:fontFamily="@font/coves_bold"
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -173,7 +178,7 @@
             android:id="@+id/btnSignUp_Next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/next"
+            android:text="@string/go"
             android:layout_marginTop="20dp"
             android:background="@drawable/custom_button_black"
             android:layout_marginRight="5dp"
@@ -186,7 +191,7 @@
             android:id="@+id/btnLogin_Signup"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="@string/login"
+            android:text="@string/already_have_account"
             android:textAllCaps="true"
             android:textColor="@color/black"
             android:background="#00000000"

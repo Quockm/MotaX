@@ -50,6 +50,9 @@
     <string name="ok">Ok</string>
     <string name="password_updated">Password <br>Updated</br></string>
     <string name="your_password_has_been_updated">Your password has been updated!</string>
+    <string name="go">Go</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="signup_to_start_motaxgo">SignUp to start MotaxGO</string>
 
 
 </resources>
